@@ -1,0 +1,23 @@
+# Master Seller Academy
+
+> Formation professionnelle pour revendeurs d'agences IA. Programme complet pour lancer et vendre des services d'intelligence artificielle en marque blanche.
+
+## Ce que fait Master Seller Academy
+
+Master Seller Academy forme des entrepreneurs et freelances a la revente de services IA : agents vocaux, automatisation, contenu IA, SEO automatise. Programme de formation acces sur la pratique commerciale et les arguments de vente.
+
+## Programme
+
+- Module 1 : Comprendre et pitcher les solutions IA
+- Module 2 : Identifier et prospecter les clients PME
+- Module 3 : Presenter et vendre (scripts, objections, closing)
+- Module 4 : Onboarding client et livraison
+- Module 5 : Scalabilite et agence IA rentable
+
+## Cible
+
+Entrepreneurs, freelances, commerciaux independants souhaitant revendre des services IA B2B a des PME et ETI.
+
+## Pages
+
+- Homepage : https://master-seller.fr

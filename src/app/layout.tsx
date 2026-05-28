@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.master-seller.fr"),
+  metadataBase: new URL("https://master-seller.fr"),
   title: {
     default: "Master Seller — Formation Vente en Ligne & Agence IA",
     template: "%s | Master Seller",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://www.master-seller.fr",
+    url: "https://master-seller.fr",
     siteName: "Master Seller",
     images: [
       {
@@ -32,8 +32,33 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://www.master-seller.fr",
+    canonical: "https://master-seller.fr",
   },
+};
+
+const ORG_SCHEMA = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://master-seller.fr/#organization",
+      name: "Master Seller",
+      url: "https://master-seller.fr",
+      logo: "https://master-seller.fr/og-default.png",
+      founder: {
+        "@type": "Person",
+        name: "Laurent Duplat",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://master-seller.fr/#website",
+      url: "https://master-seller.fr",
+      name: "Master Seller",
+      publisher: { "@id": "https://master-seller.fr/#organization" },
+      inLanguage: "fr-FR",
+    },
+  ],
 };
 
 function Header() {
@@ -150,6 +175,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_SCHEMA) }}
+        />
+      </head>
       <body>
         <Header />
         <main>{children}</main>

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", system-ui, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-950 text-slate-200 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand-500 px-6 py-3 font-semibold text-white transition-all hover:bg-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-slate-950;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-brand-500 px-6 py-3 font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-slate-950;
+  }
+
+  .card {
+    @apply rounded-xl border border-slate-800 bg-slate-900 p-6 transition-all hover:border-brand-500/50;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold tracking-tight text-slate-100 md:text-4xl;
+  }
+
+  .section-subtitle {
+    @apply mt-4 text-lg text-slate-400;
+  }
+
+  .tag {
+    @apply inline-flex items-center rounded-full bg-brand-500/10 px-3 py-1 text-xs font-medium text-brand-400 ring-1 ring-inset ring-brand-500/20;
+  }
+}

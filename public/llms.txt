@@ -21,3 +21,4 @@ Entrepreneurs, freelances, commerciaux independants souhaitant revendre des serv
 ## Pages
 
 - Homepage : https://master-seller.fr
+- Sitemap : https://master-seller.fr/sitemap.xml

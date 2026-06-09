@@ -1,5 +1,8 @@
 # Master Seller Academy
 
+Sitemap: https://master-seller.fr/sitemap.xml
+Robots: https://master-seller.fr/robots.txt
+
 > Formation professionnelle pour revendeurs d'agences IA. Programme complet pour lancer et vendre des services d'intelligence artificielle en marque blanche.
 
 ## Ce que fait Master Seller Academy

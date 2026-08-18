@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { getAllPosts } from "@/lib/mdx";
 
 export const metadata: Metadata = {
-  title: "Master Seller — Formation Vente en Ligne & Agence IA",
+  title: "Master Seller : formation vente en ligne et IA",
   description:
-    "Devenez un revendeur performant grâce aux meilleures stratégies e-commerce et aux outils IA. Formation, guides pratiques et ressources pour booster vos ventes en ligne.",
+    "Master Seller propose des formations, guides et ressources pour développer une activité de vente en ligne avec des outils IA.",
   alternates: { canonical: "https://master-seller.fr" },
 };
 
